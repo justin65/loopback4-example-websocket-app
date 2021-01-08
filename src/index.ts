@@ -28,7 +28,8 @@ if (require.main === module) {
       },
     },
     websocket: {
-      port
+      port,
+      host: 'localhost',
     }
   };
   main(config).catch(err => {
